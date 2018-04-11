@@ -1,6 +1,20 @@
 
 body{
-	background-image: url(gallery/concrete-texture.png);
+	background-image:/* url(gallery/binding_dark_@2X.png)*/;
+
+}
+
+h1{
+	font-family: "black han sans";
+	font-size: 50px;
+	color: gold;
+	text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: gold;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    
+	
 
 }
 
@@ -11,11 +25,12 @@ header img{
 }
 
 header{
-	background-image: url(book.png);
+	background-image: url(gallery/book.png);
 	height: 300px;
-	border: 10px solid black;
+	border: 10px solid gold;
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 30px;
 	
 }
 
@@ -53,20 +68,121 @@ padding-left:30px;
 	}
 
 #quote{
-	font-family: Trebuchet MS;
+	font-family: "roboto slab";
+	text-align: center;
+	text-decoration-color: gold;
+	text-decoration-style: double;
+	text-decoration-line: overline underline;
+	font-size: 20px;
+	line-height: 1.6;
+	/*margin-bottom:  30px;
+	margin-top: 0;*/
+
 }
+
+#faces{
+	display: flex;
+
+	justify-content: center;
+
+
+
+}
+
+
 
 .face{
 	width: 160px;
 	height: 160px;
 	border-radius: 80px; 
-	border: 2px solid black;
+	border: 5px solid gold;
+	margin-right: 20px;
 }
 
 .white{
 	border: 2px solid #1a1a1a;
 	display: inline-block;
 }
+
+.best{
+	color: black;
+	font-size: 20px;
+	font-family: "black han sans";
+	text-align: center;
+	text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: gold;
+	
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	text-align: justify;
+	padding-top: 60px;
+}
+
+
+.one{width: 20%;
+
+}
+
+.two{width: 20%;
+
+}
+
+.three{width: 20%;
+
+}
+
+h2{
+	color: gold;
+	font-family: Trebuchet MS;
+	text-shadow: 2px 2px 4px #000000;
+
+}
+
+.p{
+	font-family: "roboto slab";
+	border: 2px solid gold;
+	padding: 10px;
+}
+
+#span{
+	text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: gold;
+
+}
+
+h3{
+	text-align: center;
+	font-family: Trebuchet MS;
+	font-size: 30px
+}
+
+.popular{
+	text-align: center;
+	margin-top: 120px;
+	font-family: "black han sans";
+	font-size: 25px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
