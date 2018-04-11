@@ -1,0 +1,75 @@
+
+body{
+	background-image: url(gallery/concrete-texture.png);
+
+}
+
+header img{
+	width: 200px;
+	height: 200px;
+	padding-top: 50px;
+}
+
+header{
+	background-image: url(book.png);
+	height: 300px;
+	border: 10px solid black;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.circle1{
+padding-left:30px;
+}
+
+.circle2{
+	padding-right:30px;
+}
+
+#center{
+	text-align: center;
+
+}
+
+#title{
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	padding-top: 81px;
+}
+
+.marble{
+	width:20%;
+	height: 500px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+.er{
+	display: flex;
+	justify-content: space-around;
+	}
+
+#quote{
+	font-family: Trebuchet MS;
+}
+
+.face{
+	width: 160px;
+	height: 160px;
+	border-radius: 80px; 
+	border: 2px solid black;
+}
+
+.white{
+	border: 2px solid #1a1a1a;
+	display: inline-block;
+}
+
+
+
+
+
+
